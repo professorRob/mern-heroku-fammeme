@@ -43,7 +43,7 @@ export default class CreateMeme extends Component {
     formData.append('date', this.state.date);
 
     console.log(formData);
-    Axios.post("http://localhost:5000/meme/add", formData).then((res) =>
+    Axios.post(`${serv}/meme/add`, formData).then((res) =>
       console.log(res.data)
     );
 
