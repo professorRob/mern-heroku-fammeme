@@ -3,6 +3,8 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import Axios from "axios";
 
+const serv = "https://family-meme-two.herokuapp.com";
+
 export default class CreateMeme extends Component {
   constructor(props) {
     super(props);
